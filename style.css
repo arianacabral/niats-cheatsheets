@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho-imagem {
+    height: 32px;
+}
+
+.apresentation {
+  background-size: cover;
+  height: calc(100vh - 72px);
+  background-image: url("src/background_blur.jpg");
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.imglk:hover{
+    filter: drop-shadow(4px 10px 2px rgb(0 0 0 / 0.4));
+}
+
+.btn-primary{
+    background-color: #1183c3;
+    border: none;
+}
+
+.zenodo-img:hover{
+  filter: drop-shadow(4px 10px 2px rgb(0 0 0 / 0.4));
+}
